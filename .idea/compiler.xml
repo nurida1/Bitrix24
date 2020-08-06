@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Bitrix24_project" />
         <module name="bitrix24" />
         <module name="Bitrix24_GroupWork" />
         <module name="Bitrix24" />
