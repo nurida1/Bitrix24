@@ -14,4 +14,12 @@ public class ActionsPage extends BasePage{
     @FindBy(xpath = "//div[@class='diskuf-uploader']")
     public WebElement uploadButton;
 
+    @FindBy(xpath = "//*[@id=\"popup-window-content-menu-popup-feed-add-post-form-popup\"]/div/div/span[3]/span[2]")
+    public WebElement AnnouncementButton;
+
+    @FindBy (xpath = "//*[@id=\"bx-b-mention-blogPostForm\"]")
+    public WebElement MentionButton;
+
+
+
 }
